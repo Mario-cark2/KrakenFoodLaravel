@@ -1,0 +1,9 @@
+ 
+@media screen and (max-width:650px){
+ 
+	body{
+		Background-color:red;
+        width: 100vw;
+        height: 12vh;;
+		}
+    }

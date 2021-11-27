@@ -1,0 +1,78 @@
+
+body{
+	background-image: url(../css/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	
+}
+.formulario{ 
+	background: rgb(0, 0, 0 , .1);
+	padding: 20px;
+	border-radius: 10px
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0, .568);
+	color: white;
+} 
+
+.form-control {
+	background: rgba(0, 0, 0, .3);
+	border-style: none;
+	transition: 0.5s ease-in;
+	outline: none;
+	box-shadow: none;
+}
+
+.form-control::placeholder {
+	color: white;
+}
+.form-control:focus{
+	background: none;
+	color: white;
+	box-shadow: none;
+	outline: none;
+}
+
+.ingresar{
+	background: #222A3F;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 700!important;
+	color: white; 
+	box-shadow:0 0 30px rgba(0,0,0,0.568) ;
+	transition: 0.5s ease-in;
+}
+
+.ingresar:hover {
+color: white;
+}
+.olvide{
+	 color: #ffffff;
+	 padding: 10px;
+	 font-size: 20px;
+	font-weight: 700!important;
+	text-decoration-style: none;
+	text-decoration-line: none;
+}
+.olvide:hover{
+	color: #380d91;
+	text-decoration-style: none; 
+	cursor: pointer;
+
+}
+.registrate{
+	 	background: #222A3F;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 700!important;
+	color: white; 
+	box-shadow:0 0 60px rgba(0,0,0,0.568) ;
+	transition: 0.555s ease-in;
+}
+.registrate:hover{
+	color: #380d91;
+	text-decoration-style: none;
+	text-decoration-line: none;
+	cursor: pointer;
+}
+
